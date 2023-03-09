@@ -22,9 +22,9 @@ describe 'license meta' do
       examples = raw_fields['using'] || {}
 
       it 'using contains 3 examples' do
-        legacy = [
-                              
+        legacy = [         
 	  'mael-leperlier.txt',
+	  'mathis-louarn'
           'afl-3.0',
           'artistic-2.0',
           'bsd-3-clause-clear',
