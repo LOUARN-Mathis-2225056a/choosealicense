@@ -23,6 +23,8 @@ describe 'license meta' do
 
       it 'using contains 3 examples' do
         legacy = [
+                              
+	  'mael-leperlier.txt',
           'afl-3.0',
           'artistic-2.0',
           'bsd-3-clause-clear',
@@ -32,7 +34,7 @@ describe 'license meta' do
           'lppl-1.3c',
           'ms-pl',
           'ms-rl',
-          'wtfpl'
+          'wtfpl',
         ]
         skip 'added before 3 using examples required' if legacy.include?(license['slug'])
         expect(examples.length).to eq(3)
