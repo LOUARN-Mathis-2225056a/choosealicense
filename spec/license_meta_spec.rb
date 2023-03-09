@@ -24,6 +24,7 @@ describe 'license meta' do
       it 'using contains 3 examples' do
         legacy = [
 	  'conflit 2'
+	  'conflit'
 	  'mael-leperlier.txt',
 	  'mathis-louarn'
           'afl-3.0',
